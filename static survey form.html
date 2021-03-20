@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Crisis on Campus Themed Survey</title>
+<link rel="shortcut icon" href="YangtzeEdu.ico">
+<link rel="bookmark" href="YangtzeEdu.ico">	
+<link rel="stylesheet" href="3月14日作品2.css">	
+</head>
+
+<body>
+	<div class="app">
+		<!--上头为版心-->
+		<!--导航栏开始-->
+		<div class="nav">
+			<nav style="height: 75px; background-color: #7DCDFA;">
+				<div class="logo"><img src="YangtzeEdu.jpg" alt="YangtzeEdulogo" class="logo1" width="50px"></div>
+				<p class="title">Crisis on Campus Themed Survey</p>
+				<p class="selectLanguage">Select Language:</p>&nbsp;
+				<label for="language"><select name="language" id="language">
+					<option value="1" name="language" selected>English</option>
+				<option value="2" name="language">中文</option>
+				</select></label>
+			</nav>
+		</div>
+		<!--导航栏结束-->
+		<br>
+		<!--此为开头介绍，展现目的-->
+		<header>
+			<h1>Welcome to our survey!</h1> 
+			<p class="info">As we are becoming more immersed in everyday school activities, we are more aware of potential school crisis. Therefore, we are going to do a survey about it. Please feel free to participate!</p>
+		</header>
+		<hr><!--自定义hr样式--> <br>
+        <!--表单就是调查表-->
+	<form action="http://www.yangtzeu.edu.cn/" method="post">
+		<p>1.Gender</p>
+		<input type="radio" name="quest1" id="1a"><label for="1a"> Male </label>
+		<br><input type="radio" name="quest1" id="1b"> <label for="1b">Female</label>
+    <!--你知道吗，为何用label标签包含选项呢？这是因为被其包含的文字会触发选项选择(不必再点击小圈圈了，点文字即可)，从而增强用户体验。强烈推荐！-->
+		<p>2.What kind of personality do you think you have</p>
+		<input type="radio" name="quest2.1" id="2a"><label for="2a"> extroverted</label>
+		<br><input type="radio" name="quest2.1" id="2b"><label for="2b"> introverted </label>
+		<br><input type="radio" name="quest2.2" id="2c"><label for="2c">optimistic</label>
+		<br><input type="radio" name="quest2.2" id="2d"><label for="2d">pessimistic</label>
+		<p>3. What crises on campus have you heard about? </p>
+		<input type="checkbox" name="quest3" id="3a"><label for="3a">campus loan </label>
+		<br><input type="checkbox" name="quest3" id="3b"><label for="3b">love troubles  </label>
+		<br><input type="checkbox" name="quest3" id="3c"><label for="3c">psychological health</label>
+		<br><input type="checkbox" name="quest3" id="3d"><label for="3d">telecommunication fraud</label>
+		<br><input type="checkbox" name="quest3" id="3e"><label for="3e"> academic pressure</label>
+		
+		<p>4. Did others' crisis have impacts on you? </p>
+		<input type="radio" name="quest4" id="4a"><label for="4a">Yes</label>
+		<br><input type="radio" name="quest4" id="4b"><label for="4b">No</label>
+			<!--	<br><input type="radio" name="quest4">-->
+		<p>5.How you feel when these crises take place? </p>
+		    <input type="radio" name="quest5" id="5a"> <label for="5a">corrupted</label>
+		<br><input type="radio" name="quest5" id="5b"> <label for="5b">depressed </label>
+		<br><input type="radio" name="quest5" id="5c"> <label for="5c">annoyed</label>
+		<br><input type="radio" name="quest5" id="5d"> <label for="5d">calm</label>
+		<p>6.Are there some real case happen around you? </p>
+		    <input type="radio" name="quest6" id="6a"><label for="6a">Yes </label> 
+		<br><input type="radio" name="quest6" id="6b"><label for="6b"> No </label>
+		<br><input type="radio" name="quest6" id="6c"><label for="6c"> indifferent</label>
+		<p>7.What will you do when others in need turn to you? </p>
+		    <input type="radio" name="quest7" id="7a"><label for="7a"> Comfort him /her </label>
+		<br><input type="radio" name="quest7" id="7b"><label for="7b"> Try to deal with problems</label>
+		<br><input type="radio" name="quest7" id="7c"><label for="7c">Ask another one</label>  
+		<br><input type="radio" name="quest7" id="7d"><label for="7d">No reaction</label>
+		<p>8.What's your solution when suffering crises? </p>
+		    <input type="checkbox" name="quest8" id="8a"><label for="8a">Suppress in mind</label>
+		<br><input type="checkbox" name="quest8" id="8b"><label for="8b">Do something to relax</label>
+		<br><input type="checkbox" name="quest8" id="8c"><label for="8c">Escape from the reality</label>
+		<br><input type="checkbox" name="quest8" id="8d"><label for="8d">Turn to the teachers for help</label>
+		<br><input type="checkbox" name="quest8" id="8e"><label for="8e">Walk out through your own ways</label>
+		<p>9.Does your school regularly hold safety education meeting?</p>
+		    <input type="radio" name="quest9" id="9a"><label for="9a">Yes </label>
+		<br><input type="radio" name="quest9" id="9b"><label for="9b">NO</label>
+		<br><input type="radio" name="quest9" id="9c"><label for="9c">Unclear</label>
+		<p>10.Have you resolved it successfully?</p>
+		    <input type="radio" name="quest10" id="10a"><label for="10a">Yes  </label>
+		<br><input type="radio" name="quest10" id="10b"><label for="10b">NO</label>
+		<br><input type="radio" name="quest10" id="10c"><label for="10c">Unclear</label>
+		<p>11.Do you know where your teachers office or the psychological counseling room is? </p>
+		    <input type="radio" name="quest11" id="11a"><label for="11a">Yes </label>
+		<br><input type="radio" name="quest11" id="11b"><label for="11b">NO</label>
+		<br><input type="radio" name="quest11" id="11c"><label for="11c">Unclear</label>
+		<p>12. Have you ever do some counseling? </p>
+		    <input type="radio" name="quest12" id="12a"><label for="12a">Yes</label>
+		<br><input type="radio" name="quest12" id="12b"><label for="12b">NO</label>
+		<br><input type="radio" name="quest12" id="12c"><label for="12c">Unclear</label>
+		<p>13. Why or why not? </p>
+		    <input type="radio" name="quest13" id="13a"><label for="13a">I have never encountered any crisis</label>
+		<br><input type="radio" name="quest13" id="13b"><label for="13b">I can't trust others</label>
+		<br><input type="radio" name="quest13" id="13c"><label for="13c">I am not sure whether they can help me</label>
+		<br><input type="radio" name="quest13" id="13d"><label for="13d">They can listen to my problems patiently</label>
+		<br><input type="radio" name="quest13" id="13e"><label for="13e">The counseling makes me at ease.</label>
+		<p>14.If you have been in a crisis before, how do you view this experience?</p>
+		    <input type="radio" name="quest14" id="14a"><label for="14a">see it as nothing happened</label>
+		<br><input type="radio" name="quest14" id="14b"><label for="14b">Regard it as a bitter experience</label>
+		<br><input type="radio" name="quest14" id="14c"><label for="14c">Take it as a lesson</label>
+		<br><input type="radio" name="quest14" id="14d"><label for="14d">cherish a lot, and you are willing to apply what your have learned from it to future situations</label> <br>
+		<br><div class="options"><!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
+		<input type="submit" value="Submit" onClick="alert()">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	<input type="reset" value="Reset"></div>
+	</form>
+		<script type="text/javascript">
+			function alert(){
+				window.alert("Thanks for participating!")
+			}
+		</script>
+		<!--页脚-->
+		<footer>
+			<p>Powered by Yangtze University</p>
+			<!--<br>-->
+			<p>©2021 杰者Jayther All rights reserved.</p>
+		</footer>
+	</div>
+</body>
+</html>
