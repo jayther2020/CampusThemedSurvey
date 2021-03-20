@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	/*text-align: center;*/
+	margin: 0px;
+	line-height: 45px;
+}
+body{
+	background-color: #F1F9FF;
+}
+.app {
+	width: 850px;
+	margin: auto;
+	/*background-color: #B7E0FF;*/
+}
+nav {
+	background-color: #7DCDFA;
+}
+h1 {
+	text-align: center;
+	background-color: /*indigo*/#00b7ee;
+	padding: 20px 0px;
+}
+div.logo, .title,.selectLanguage, select {
+	float: left;
+}
+.logo {
+	margin: 0px 50px;
+}
+p.title {
+	margin: 0px 82px 0px 147px;
+	border-bottom: 5px solid #0297db;
+}
+/*.selectLanguage{
+	
+}*/
+select#language {
+	margin: 15px 0px 20px 10px;
+}
+.info {
+	text-indent: 2em;
+	margin: 20px auto;
+	font-size: 25px;
+}
+/*自定义hr样式*/
+hr{
+	text-align: center;
+	border-style: outset;
+	border-color: #7DCDFA;
+	border-width: 9px;
+}
+div.options {
+	text-align: center;
+}
+footer {
+	margin-top: 15px;
+	border-top: 10px solid #AEE0FC;
+	background-color: #7DCDFA;
+}
